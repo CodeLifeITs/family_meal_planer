@@ -171,6 +171,7 @@ class _MealCardState extends State<MealCard> {
           isExpanded = !isExpanded;
         });
       },
+
       child: SingleChildScrollView(
         child: Container(
             decoration: BoxDecoration(
